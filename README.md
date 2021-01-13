@@ -4,7 +4,8 @@
 
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@sravanthbaratam/gpi.svg)](https://www.npmjs.com/package/@sravanthbaratam/gpi)
 
-Removes all spaces from a string.
+Gets the current gold price at major cities in India
+
 
 ## Install
 
