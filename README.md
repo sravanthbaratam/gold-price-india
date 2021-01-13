@@ -16,7 +16,7 @@ $ npm install @sravanthbaratam/gpi
 
 ```js
 const gpi = require("@sravanthbaratam/gpi");
-//under development [will be releasing the next major version on jan 4th 2021. Thanks]
+//under development [will be releasing the next major version on jan 31th 2021. Thanks]
 gpi();
 //=> "10g of 24k gold (99.9%): 51,550 INRHyderabad, 23 Dec 2020
 //=>  10g of 24k gold (99.9%): 51,520 INRBengaluru, 23 Dec 2020
