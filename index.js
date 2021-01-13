@@ -4,9 +4,7 @@ module.exports = async function gpi() {
     const fetch = require("node-fetch");
 
     const Url = 'https://www.google.com/search?q=gold+price';
-
-    
-     const priceList = await fetch(Url).then(function (response) {
+    const priceList = await fetch(Url).then(function (response) {
         return response.text();
     }).then(function (html) {
         // This is the HTML from our response as a text string
@@ -18,7 +16,7 @@ module.exports = async function gpi() {
             let f = e.find("div", class_ = "am3QBf").text
             result.push(f)
          }
-         console.log(result)
+         //console.log(result)
         return result
 
     }).catch(function (err) {

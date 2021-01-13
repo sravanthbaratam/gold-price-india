@@ -15,9 +15,14 @@ $ npm install @sravanthbaratam/gpi
 ## Usage
 
 ```js
-const gpi = require("@sravanthbaratam/gpi");
-//under development [will be releasing the next major version on jan 31th 2021. Thanks]
-gpi();
+//under development : current scenario returns only a string array 
+// next version will return dictionary 
+const gpi = require('@sravanthbaratam/gpi')
+
+async function pak(){
+    let res = await gpi();
+    console.log(res);
+}
 //=> "10g of 24k gold (99.9%): 51,550 INRHyderabad, 23 Dec 2020
 //=>  10g of 24k gold (99.9%): 51,520 INRBengaluru, 23 Dec 2020
 //=>  10g of 24k gold (99.9%): 51,570 INRChennai, 23 Dec 2020
